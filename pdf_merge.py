@@ -13,7 +13,7 @@ def merge_pdf(files):
     merger.write('merged_file.pdf')
 
 def main():
-    #subprocess.call('./get_path.sh')
+    subprocess.call('./get_path.sh')
     files = readPDF_files('paths.txt')
     merge_pdf(files)
 
